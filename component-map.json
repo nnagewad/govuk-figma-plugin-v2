@@ -1,0 +1,500 @@
+{
+  ".govuk-breadcrumbs": {
+    "name": "Breadcrumbs",
+    "key": "7e37f00f74e361e7dacd2315587de8c1fb33f8e9",
+    "description": "Breadcrumbs",
+    "docsUrl": null
+  },
+  ".govuk-exit-this-page": {
+    "name": "Exit this page",
+    "key": "500b9cc29de01aa1f8de9efc8e75099afbd76da7",
+    "description": "Exit this page",
+    "docsUrl": null
+  },
+  ".govuk-tabs__list-item--selected": {
+    "name": "Tab state=Selected, State=Default",
+    "key": "2b55b4f70ac1f7705e21091739082eee52734294",
+    "description": "Tab state=Selected, State=Default",
+    "docsUrl": null
+  },
+  ".govuk-body-s": {
+    "name": "Size=Small, Weight=Bold",
+    "key": "f3d61ba7d7a085909ee65a002dd635fc124deb8a",
+    "description": "Size=Small, Weight=Bold",
+    "docsUrl": null
+  },
+  ".govuk-accordion": {
+    "name": "Accordion",
+    "key": "ad7f28fc0fd6d8e37e4494b76b462be6e4e6c890",
+    "description": "Accordion",
+    "docsUrl": null
+  },
+  ".govuk-section-break--xl": {
+    "name": "Section break size=XL",
+    "key": "a4f43d82fcea30cc4f93692306bdbe1c260527a0",
+    "description": "Section break size=XL",
+    "docsUrl": null
+  },
+  ".govuk-task-list": {
+    "name": "Task list",
+    "key": "d708f84559f4056f577da7f546ed58a7d27a7f6b",
+    "description": "Task list",
+    "docsUrl": null
+  },
+  ".govuk-header": {
+    "name": "GOV.UK header",
+    "key": "47843be9ef982ca391bb304355d0b677fbe6dda8",
+    "description": "GOV.UK header",
+    "docsUrl": null
+  },
+  ".govuk-tag--blue": {
+    "name": "Tag class=govuk-tag--blue",
+    "key": "1352b9d92096bc932f64635260af41843e8cebea",
+    "description": "Tag class=govuk-tag--blue",
+    "docsUrl": null
+  },
+  ".govuk-tag--orange": {
+    "name": "Tag class=govuk-tag--orange",
+    "key": "57385d89503dacfe96c71d862f2d16695a99d712",
+    "description": "Tag class=govuk-tag--orange",
+    "docsUrl": null
+  },
+  ".govuk-heading-l": {
+    "name": "Size=L",
+    "key": "0b03db432cafb474f4d1e6a4c0c24aac9923b4c3",
+    "description": "Size=L",
+    "docsUrl": null
+  },
+  ".govuk-body-l": {
+    "name": "Size=Large, Weight=Bold",
+    "key": "2571155a5fc3878d9eb69444463eb390fe520ba1",
+    "description": "Size=Large, Weight=Bold",
+    "docsUrl": null
+  },
+  ".govuk-tag--magenta": {
+    "name": "Tag class=govuk-tag--magenta",
+    "key": "cf2c66dfdbac761dfbb6740910bef8f5ef8e002b",
+    "description": "Tag class=govuk-tag--magenta",
+    "docsUrl": null
+  },
+  ".govuk-tag--red": {
+    "name": "Tag class=govuk-tag--red",
+    "key": "30421f6acfeeab0b1aec8164c22ba82611810489",
+    "description": "Tag class=govuk-tag--red",
+    "docsUrl": null
+  },
+  ".govuk-inset-text": {
+    "name": "Inset text",
+    "key": "0bc8cedb562940c33b19f631e6792a7d2a5e1817",
+    "description": "Inset text",
+    "docsUrl": null
+  },
+  ".govuk-tag--purple": {
+    "name": "Tag class=govuk-tag--purple",
+    "key": "56447a73d95d3a1e05b75a6854e0974e87c55eef",
+    "description": "Tag class=govuk-tag--purple",
+    "docsUrl": null
+  },
+  ".govuk-warning-text": {
+    "name": "Warning text",
+    "key": "3a52f820a3b7577b2ac48211758d0f200fe8cd9c",
+    "description": "Warning text",
+    "docsUrl": null
+  },
+  ".govuk-table": {
+    "name": "Table",
+    "key": "57ed115ede9b875e9e61a1378af373b842694f96",
+    "description": "Table",
+    "docsUrl": null
+  },
+  ".govuk-service-navigation": {
+    "name": "Service navigation",
+    "key": "ec00f934b23f225229a03fbf8ed6d66d9ab20f5b",
+    "description": "Service navigation",
+    "docsUrl": null
+  },
+  ".govuk-list": {
+    "name": "List item",
+    "key": "6de30c1bc1c24f10d8bc7baad8c73b19ddd33797",
+    "description": "List item",
+    "docsUrl": null
+  },
+  ".govuk-button--inverse": {
+    "name": "Button type=Inverse, State=Default",
+    "key": "4292fc317fb67ae30852964fa1090ea3e37e74d6",
+    "description": "Button type=Inverse, State=Default",
+    "docsUrl": null
+  },
+  ".govuk-error-summary": {
+    "name": "Error summary",
+    "key": "05c51bde602e3e3403b6395efb72b0838386ed40",
+    "description": "Error summary",
+    "docsUrl": null
+  },
+  ".govuk-pagination--block": {
+    "name": "Pagination",
+    "key": "59badfb1b67114b7819e3d6952c09f51c6f44a47",
+    "description": "Pagination",
+    "docsUrl": null
+  },
+  ".govuk-pagination": {
+    "name": "Pagination",
+    "key": "5af2b028b8ca23b6db582d0e04b6b74a5106bcb7",
+    "description": "Pagination",
+    "docsUrl": null
+  },
+  ".govuk-phase-banner": {
+    "name": "Phase banner",
+    "key": "8c4dc9e6810c6d431e13e6976f2c8f0117d5eb71",
+    "description": "Phase banner",
+    "docsUrl": null
+  },
+  ".govuk-tag--green": {
+    "name": "Tag class=govuk-tag--green",
+    "key": "2fcd4084ba61bee70d7ebd306f078fbce8317444",
+    "description": "Tag class=govuk-tag--green",
+    "docsUrl": null
+  },
+  ".govuk-heading-xl": {
+    "name": "Size=XL",
+    "key": "333a1f28b8df201f9de795fdc571811fe1af52fb",
+    "description": "Size=XL",
+    "docsUrl": null
+  },
+  ".govuk-service-navigation__item--active": {
+    "name": "State=Selected, Viewport=Mobile",
+    "key": "4d586e3918faa6cb4626b7fb74c5d68b56d0436f",
+    "description": "State=Selected, Viewport=Mobile",
+    "docsUrl": null
+  },
+  ".govuk-tag--yellow": {
+    "name": "Tag class=govuk-tag--yellow",
+    "key": "4d6bb537ecb203519053f2ab022d2d638121c5aa",
+    "description": "Tag class=govuk-tag--yellow",
+    "docsUrl": null
+  },
+  ".govuk-body": {
+    "name": "Size=Default, Weight=Light",
+    "key": "525915a0c820c40078f3fc6bb2e10553f9515be3",
+    "description": "Size=Default, Weight=Light",
+    "docsUrl": null
+  },
+  ".govuk-notification-banner--success": {
+    "name": "Banner type=Success",
+    "key": "581f8496d154fc22b916614a2b76018e14b521b1",
+    "description": "Banner type=Success",
+    "docsUrl": null
+  },
+  ".govuk-tag--grey": {
+    "name": "Tag class=govuk-tag--grey",
+    "key": "91a3199c47a52bedc2fd876c19c99725aa215175",
+    "description": "Tag class=govuk-tag--grey",
+    "docsUrl": null
+  },
+  ".govuk-heading-s": {
+    "name": "Size=S",
+    "key": "b26b1b4c33b4fb0e1e3d3c484764ddc3fa30094c",
+    "description": "Size=S",
+    "docsUrl": null
+  },
+  ".govuk-tag--teal": {
+    "name": "Tag class=govuk-tag--teal",
+    "key": "ebb56159d0f3ec859ffcbeac0d077003e3b57f6b",
+    "description": "Tag class=govuk-tag--teal",
+    "docsUrl": null
+  },
+  ".govuk-heading-m": {
+    "name": "Size=M",
+    "key": "ed86f741e875feb7f8d5b8eeb4cb3d0205457de1",
+    "description": "Size=M",
+    "docsUrl": null
+  },
+  ".govuk-skip-link": {
+    "name": "Skip link",
+    "key": "15994885c7bb0cf8e1a689b2f118403de58efa13",
+    "description": "Skip link",
+    "docsUrl": null
+  },
+  ".govuk-task-list__status": {
+    "name": "Task list",
+    "key": "43f75c7ca2adabe43517642c77c0d8eba2ce0a33",
+    "description": "Task list",
+    "docsUrl": null
+  },
+  ".govuk-button--warning": {
+    "name": "Button type=Warning, State=Default",
+    "key": "4c4fdc06a935e0dbdd74ad0e2426b8e4c19b9a1a",
+    "description": "Button type=Warning, State=Default",
+    "docsUrl": null
+  },
+  ".govuk-tabs": {
+    "name": "Tabs",
+    "key": "8495b4b4efed00cb47e48b737fd614260c21a338",
+    "description": "Tabs",
+    "docsUrl": null
+  },
+  ".govuk-button--start": {
+    "name": "Button type=Start button, State=Default",
+    "key": "ad9c2b73f965ec53b82e55db075e28131deb4d6b",
+    "description": "Button type=Start button, State=Default",
+    "docsUrl": null
+  },
+  ".govuk-panel": {
+    "name": "Panel",
+    "key": "b5f7dd8a24e6be3a18da3e421f0d217b93ae3593",
+    "description": "Panel",
+    "docsUrl": null
+  },
+  ".govuk-tabs__panel": {
+    "name": "Tab body",
+    "key": "bac2050d73c075221930ef62e4495fedcdd66366",
+    "description": "Tab body",
+    "docsUrl": null
+  },
+  ".govuk-button--secondary": {
+    "name": "Button type=Secondary, State=Default",
+    "key": "ef1085d61e023018bf29ee8b096b4de4bd6cc767",
+    "description": "Button type=Secondary, State=Default",
+    "docsUrl": null
+  },
+  ".govuk-footer": {
+    "name": "GOV.UK footer",
+    "key": "61d1e7445aa73c901fc7e6eca51bfac88693bd10",
+    "description": "GOV.UK footer",
+    "docsUrl": null
+  },
+  ".govuk-section-break--l": {
+    "name": "Section break size=Large",
+    "key": "b423275788d3a69e8ea5d20776b0ae22dfac5b8c",
+    "description": "Section break size=Large",
+    "docsUrl": null
+  },
+  ".govuk-section-break--m": {
+    "name": "Section break size=Medium",
+    "key": "e9425a9f0f37f26a2c3f6df42f768a90edd50d59",
+    "description": "Section break size=Medium",
+    "docsUrl": null
+  },
+  ".gem-c-layout-super-navigation-header": {
+    "name": "Header",
+    "key": "e588a561881d6fac3a8c39c7a142a9fcfefc82d4",
+    "description": "Header",
+    "docsUrl": null
+  },
+  ".gem-c-contextual-sidebar": {
+    "name": "Contextual sidebar",
+    "key": "02e71c5c8894e76217c6a99d39a23d79ef8e5a7c",
+    "description": "Contextual sidebar",
+    "docsUrl": null
+  },
+  ".gem-c-back-to-top-link": {
+    "name": "Back to the top link",
+    "key": "2eb5b3a9bb988a17ed880a9474b91035bc46b804",
+    "description": "Back to the top link",
+    "docsUrl": null
+  },
+  ".gem-c-subscription-links": {
+    "name": "Subscription links",
+    "key": "1a0a0ddb72585bcb7c91ebd371f51b4634b5842a",
+    "description": "Subscription links",
+    "docsUrl": null
+  },
+  ".gem-c-devolved-nations": {
+    "name": "Devolved nations",
+    "key": "7aa5af6cfb846637e5e1c90cf9bf1c8abed594bd",
+    "description": "Devolved nations",
+    "docsUrl": null
+  },
+  ".gem-c-translation-nav": {
+    "name": "Translation nav",
+    "key": "5c304925196cfd2b240d76f76bfd71a068e1dbb0",
+    "description": "Translation nav",
+    "docsUrl": null
+  },
+  ".gem-c-copy-to-clipboard": {
+    "name": "Copy to clipboard",
+    "key": "322d0a1daa8c178a6367f76595ca48a21f3711d5",
+    "description": "Copy to clipboard",
+    "docsUrl": null
+  },
+  ".gem-c-reorderable-list__item": {
+    "name": "Reordable list item",
+    "key": "62e1ece52e846a5047678427b305602ef4c41dbb",
+    "description": "Reordable list item",
+    "docsUrl": null
+  },
+  ".gem-c-cross-service-header": {
+    "name": "Header",
+    "key": "02c3a39aa8836192939e5d42110b1222fe172ae5",
+    "description": "Header",
+    "docsUrl": null
+  },
+  ".gem-c-action-link--large": {
+    "name": "Size=Large",
+    "key": "3b0e17b25261340fb779f3130638168187090b0a",
+    "description": "Size=Large",
+    "docsUrl": null
+  },
+  ".gem-c-attachment__thumbnail-image--external": {
+    "name": "Attachment icon=external",
+    "key": "4bc489c08a7ac20a5e9025b23da81d08d7c55eee",
+    "description": "Attachment icon=external",
+    "docsUrl": null
+  },
+  ".gem-c-attachment__thumbnail-image--spreadsheet": {
+    "name": "Attachment icon=text",
+    "key": "4bd9b75f418544963783d309ac67807b1c127929",
+    "description": "Attachment icon=text",
+    "docsUrl": null
+  },
+  ".gem-c-attachment": {
+    "name": "Attachment",
+    "key": "5bd218eb66b017c9d41b51d1806baf25fc039c44",
+    "description": "Attachment",
+    "docsUrl": null
+  },
+  ".gem-c-summary-banner": {
+    "name": "Summary banner",
+    "key": "5bc046701800ffb41be9a3c280224ba43f857741",
+    "description": "Summary banner",
+    "docsUrl": null
+  },
+  ".gem-c-layout-header": {
+    "name": "Header",
+    "key": "7fac6fe69619e5c09afc3bf89f7746d8960e9424",
+    "description": "Header",
+    "docsUrl": null
+  },
+  ".gem-c-attachment__thumbnail-image--html": {
+    "name": "Attachment icon=html",
+    "key": "7968c91d56993e8370168a5e8c68510ff2a67258",
+    "description": "Attachment icon=html",
+    "docsUrl": null
+  },
+  ".gem-c-attachment__thumbnail-image--pdf": {
+    "name": "Attachment icon=application",
+    "key": "8019c8f94cfe02f9bb8d66d528a32a8c651c7543",
+    "description": "Attachment icon=application",
+    "docsUrl": null
+  },
+  ".gem-c-secondary-navigation__list-item--current": {
+    "name": "State=Selected, Viewport=Mobile",
+    "key": "b87f6ed417e0aad04e2992101b9fc7bfae1d52db",
+    "description": "State=Selected, Viewport=Mobile",
+    "docsUrl": null
+  },
+  ".gem-c-secondary-navigation__list-item-link": {
+    "name": "State=Default, Viewport=Mobile",
+    "key": "ca77a898b6097a99c4b3cc080273dabaccbe247a",
+    "description": "State=Default, Viewport=Mobile",
+    "docsUrl": null
+  },
+  ".gem-c-emergency-banner--local-emergency": {
+    "name": "Campaign class=Local emergency",
+    "key": "048a53e846f21c5ef785711c9558cdc863456611",
+    "description": "Campaign class=Local emergency",
+    "docsUrl": null
+  },
+  ".gem-c-glance-metric": {
+    "name": "Glance metric",
+    "key": "1fde2e0799bc1b5d68e8276efc7fe4cb34c25771",
+    "description": "Glance metric",
+    "docsUrl": null
+  },
+  ".gem-c-emergency-banner--national-emergency": {
+    "name": "Campaign class=National emergency",
+    "key": "5b3b08a607511e5e27205968063635eba4b16ce0",
+    "description": "Campaign class=National emergency",
+    "docsUrl": null
+  },
+  ".gem-c-document-list": {
+    "name": "Document list",
+    "key": "815e97a96e1ddc6b2f3d0eda6f1c0ae8310ee957",
+    "description": "Document list",
+    "docsUrl": null
+  },
+  ".gem-c-cards": {
+    "name": "Cards",
+    "key": "a633178874c75f37ebc2503c108f29ff99c97479",
+    "description": "Cards",
+    "docsUrl": null
+  },
+  ".gem-c-document-list__item": {
+    "name": "Document List item",
+    "key": "a8f35b85ae565c806dd9c257508fb7a673580a3b",
+    "description": "Document List item",
+    "docsUrl": null
+  },
+  ".gem-c-big-number": {
+    "name": "Big Number",
+    "key": "bf3f7e41b6c3eefaf6bc9cfd690ab015442bd715",
+    "description": "Big Number",
+    "docsUrl": null
+  },
+  ".gem-c-contextual-footer": {
+    "name": "Contextual footer",
+    "key": "ce2e79b4a5c4abe9218434e342493d32ffa4a474",
+    "description": "Contextual footer",
+    "docsUrl": null
+  },
+  ".gem-c-search": {
+    "name": "Search",
+    "key": "d2d7a85899d53b4de4b2fd7f2c8ee7c6361355f4",
+    "description": "Search",
+    "docsUrl": null
+  },
+  ".gem-c-reorderable-list": {
+    "name": "Reordable list",
+    "key": "d3227a14e758432403bc2040f084c2666b56506b",
+    "description": "Reordable list",
+    "docsUrl": null
+  },
+  ".gem-c-image-card--large": {
+    "name": "Size=Large",
+    "key": "da44d7d78b1eed5c0ca704bbe3de00755b4977f6",
+    "description": "Size=Large",
+    "docsUrl": null
+  },
+  ".gem-c-published-dates": {
+    "name": "Published dates",
+    "key": "e64fc573d895fc55d4e5bc318e2b1ead53add4fc",
+    "description": "Published dates",
+    "docsUrl": null
+  },
+  ".gem-c-intervention": {
+    "name": "Intervention",
+    "key": "e7e1bb24d186d7b88aea3d5c4e03f6b1be01b4fc",
+    "description": "Intervention",
+    "docsUrl": null
+  },
+  ".gem-c-global-banner": {
+    "name": "Global banner",
+    "key": "eb6260c8708f3a9be8a226576ade6aba2086b285",
+    "description": "Global banner",
+    "docsUrl": null
+  },
+  ".gem-c-emergency-banner--notable-death": {
+    "name": "Campaign class=Notable death",
+    "key": "f82e75064cef0d41556e26a44553eaf64e096b24",
+    "description": "Campaign class=Notable death",
+    "docsUrl": null
+  },
+  ".gem-c-contents-list": {
+    "name": "Contents list",
+    "key": "1d7de3147bb79f0bc7b4364ed5cc9105dfece568",
+    "description": "Contents list",
+    "docsUrl": null
+  },
+  ".gem-c-step-nav__step": {
+    "name": "Step-by-step",
+    "key": "95ae4427ee4746f83eb0c10d0d474ac9acfe79e7",
+    "description": "Step-by-step",
+    "docsUrl": null
+  },
+  ".gem-c-step-nav": {
+    "name": "Step-by-step",
+    "key": "a2714c436d9b0b8723534d9257e59aeb9affde54",
+    "description": "Step-by-step",
+    "docsUrl": null
+  }
+}

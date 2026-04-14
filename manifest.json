@@ -1,0 +1,14 @@
+{
+  "name": "GOV.UK Page Builder (Cherry)",
+  "id": "experiment-cherry-govuk",
+  "api": "1.0.0",
+  "main": "code.js",
+  "ui": "ui.html",
+  "editorType": ["figma"],
+  "networkAccess": {
+    "allowedDomains": [
+      "https://flat-night-ade1.nikin-nagewadia.workers.dev",
+      "https://image.thum.io"
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+{
+  ".govuk-grid-column-full":                    "govuk-grid-column-full",
+  ".govuk-grid-column-one-half":                "govuk-grid-column-one-half",
+  ".govuk-grid-column-one-third":               "govuk-grid-column-one-third",
+  ".govuk-grid-column-two-thirds":              "govuk-grid-column-two-thirds",
+  ".govuk-grid-column-one-quarter":             "govuk-grid-column-one-quarter",
+  ".govuk-grid-column-three-quarters":          "govuk-grid-column-three-quarters",
+  ".govuk-grid-column-two-thirds-from-desktop": "govuk-grid-column-two-thirds-from-desktop",
+  ".govuk-grid-column-one-third-from-desktop":  "govuk-grid-column-one-third-from-desktop"
+}

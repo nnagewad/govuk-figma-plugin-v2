@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, sans-serif; font-size: 12px; padding: 12px; background: #fff; }
+  label { display: block; font-weight: 600; margin-bottom: 4px; color: #333; }
+  input {
+    width: 100%; border: 1px solid #ccc; border-radius: 3px;
+    padding: 6px 8px; font-size: 12px; font-family: inherit; margin-bottom: 10px;
+  }
+  input:focus { outline: 2px solid #1d70b8; border-color: transparent; }
+  button {
+    width: 100%; background: #00703c; color: #fff; border: none;
+    border-radius: 3px; padding: 8px; font-size: 12px; font-weight: 600; cursor: pointer;
+  }
+  button:hover:not(:disabled) { background: #005a30; }
+  button:disabled { background: #b1b4b6; cursor: not-allowed; }
+  #status { margin-top: 10px; font-size: 11px; color: #555; min-height: 16px; white-space: pre-wrap; }
+  #status.error { color: #d4351c; }
+</style>
+</head>
+<body>
+
+<label for="apiKeyInput">Anthropic API key</label>
+<input type="password" id="apiKeyInput" placeholder="sk-ant-…">
+
+<label for="urlInput">GOV.UK URL</label>
+<input type="text" id="urlInput" placeholder="https://www.gov.uk/…">
+
+<button id="buildBtn">Build page</button>
+<p id="status"></p>
+
+<script>
+  var statusEl = document.getElementById('status');
+  var apiKeyInput = document.getElementById('apiKeyInput');
+  var urlInput = document.getElementById('urlInput');
+
+  // Persist API key across sessions
+  try {
+    var savedKey = localStorage.getItem('anthropicApiKey');
+    if (savedKey) apiKeyInput.value = savedKey;
+  } catch (_) {}
+
+  function setStatus(msg, isError) {
+    statusEl.textContent = msg;
+    statusEl.className = isError ? 'error' : '';
+  }
+
+  window.onmessage = function (event) {
+    var msg = event.data.pluginMessage;
+    if (!msg) return;
+    if (msg.type === 'status') setStatus(msg.message);
+    if (msg.type === 'done')   setStatus('Done!');
+    if (msg.type === 'error')  { setStatus(msg.message, true); document.getElementById('buildBtn').disabled = false; }
+  };
+
+  document.getElementById('buildBtn').addEventListener('click', function () {
+    var apiKey = apiKeyInput.value.trim();
+    var url = urlInput.value.trim();
+    if (!apiKey) { setStatus('Enter your Anthropic API key.', true); return; }
+    if (!url) { setStatus('Enter a GOV.UK URL.', true); return; }
+
+    try { localStorage.setItem('anthropicApiKey', apiKey); } catch (_) {}
+    document.getElementById('buildBtn').disabled = true;
+    setStatus('Starting…');
+    parent.postMessage({ pluginMessage: { type: 'build', url: url, apiKey: apiKey } }, '*');
+  });
+</script>
+</body>
+</html>
