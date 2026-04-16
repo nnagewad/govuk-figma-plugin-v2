@@ -729,8 +729,9 @@ figma.ui.onmessage = async function (msg) {
 
     // Classes that are never visible on initial page load (CSS off-screen or JS-toggled)
     var EXCLUDE_CLASSES = new Set([
-      '.govuk-skip-link',  // positioned off-screen, only visible on keyboard focus
-      '.gem-c-search'      // search panel, hidden by default, shown on toggle
+      '.govuk-skip-link',    // positioned off-screen, only visible on keyboard focus
+      '.gem-c-search',       // search panel, hidden by default, shown on toggle
+      '.govuk-cookie-banner' // not visible after consent is given / on screenshot renders
     ]);
 
     var matchedComponents = [];
@@ -1111,10 +1112,10 @@ async function buildPage(detectedClasses, sourceUrl) {
   var pageName = sourceUrl.replace(/^https?:\/\/[^/]+/, '').replace(/\/$/, '') || 'GOV.UK Page';
 
   var existing = figma.root.children.find(function (p) { return p.name === pageName; });
-  if (existing) existing.remove();
   var page = figma.createPage();
   page.name = pageName;
   await figma.setCurrentPageAsync(page);
+  if (existing) existing.remove();
 
   figma.notify('Building page…', { timeout: 60000 });
   var df = await buildFrame(pageData, resolved, 1440, 'Desktop — 1440px', {

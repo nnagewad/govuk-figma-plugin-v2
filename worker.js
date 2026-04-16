@@ -44,10 +44,22 @@ async function scrape(request) {
   const components = [];
   const seen = new Set();
 
+  // Elements whose entire subtree should be ignored (not visible on initial load)
+  const SKIP_CONTAINERS = new Set(['govuk-cookie-banner']);
+  let skipDepth = 0;
+
   await new HTMLRewriter()
     .on('[class]', {
       element(el) {
         const classList = (el.getAttribute('class') || '').split(/\s+/);
+
+        // Enter a skip zone — ignore this element and all its descendants
+        if (classList.some(c => SKIP_CONTAINERS.has(c))) {
+          skipDepth++;
+          el.onEndTag(() => { skipDepth--; });
+          return;
+        }
+        if (skipDepth > 0) return;
 
         // Skip hidden elements
         const hiddenAttr = el.getAttribute('hidden');
